@@ -11,7 +11,7 @@ services:
         value: 5244
       - key: DB_TYPE
         value: sqlite3
-        sync: false
+       # sync: false
       - key: CDN
         value: https://cdn.jsdelivr.net/npm/alist-web@latest/dist/
-        sync: false
+       # sync: false
